@@ -151,7 +151,7 @@ Nous devons commencer par créer une **clé principale** et des **informations d
     SECRET = '<your-sas-token>';
     ```
 
-    Remplacez <your-sas-token> par le jeton SAP de blob généré précédemment.
+    Remplacez \<your-sas-token\> par le jeton SAP de Blob généré précédemment.
 
 1. Enfin, vous avez besoin d’une **source de données** pour accéder au stockage Blob Azure. Exécutez la commande SQL suivante pour créer une **source de données** :
 
@@ -164,7 +164,7 @@ Nous devons commencer par créer une **clé principale** et des **informations d
     );
     ```
 
-    Remplacez storageAccountName par le nom de votre compte de stockage Azure.
+    Remplacez \<your-storage-account-name\> par le nom de votre compte de stockage Azure.
 
 Tout est maintenant configuré pour importer les données à partir du fichier **employees.json** dans la *base de données Azure SQL*.
 
